@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas Gravadas - RNA INFORMÁTICA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>RNA INFORMÁTICA</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="quem-somos.html">Quem Somos</a></li>
+                <li><a href="nossos-cursos.html">Nossos Cursos</a></li>
+                <li><a href="contato.html">Entre em Contato</a></li>
+                <li><a href="aulas-gravadas.html">Aulas Gravadas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Aulas Gravadas</h2>
+        <p>Bem-vindo à seção de aulas gravadas. Aqui, o professor pode postar vídeos das aulas para os alunos assistirem.</p>
+
+        <h3>Postar Nova Aula</h3>
+        <form action="upload-aula.php" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="titulo">Título da Aula:</label>
+                <input type="text" id="titulo" name="titulo" required>
+            </div>
+            <div class="form-group">
+                <label for="video">Arquivo de Vídeo:</label>
+                <input type="file" id="video" name="video" accept="video/*" required>
+            </div>
+            <button type="submit">Enviar Aula</button>
+        </form>
+
+        <h3>Aulas Postadas</h3>
+        <div id="lista-aulas">
+            <!-- As aulas gravadas serão listadas aqui -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 RNA INFORMÁTICA. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

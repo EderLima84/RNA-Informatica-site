@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do Aluno - RNA INFORMÁTICA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>RNA INFORMÁTICA</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="quem-somos.html">Quem Somos</a></li>
+                <li><a href="nossos-cursos.html">Nossos Cursos</a></li>
+                <li><a href="contato.html">Entre em Contato</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="matricula.html">Matrícula</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Área do Aluno</h2>
+        <section>
+            <h3>Downloads de Materiais</h3>
+            <p><a href="materiais/exemplo.pdf" download>Baixar Material Exemplo</a></p>
+        </section>
+        <section>
+            <h3>Mural de Mensagens</h3>
+            <form action="postar_mensagem.php" method="post">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 RNA INFORMÁTICA. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

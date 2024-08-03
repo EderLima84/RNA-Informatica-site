@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #00c6ff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #00c6ff;
+    margin-bottom: 20px;
+}
+
+.courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course-item {
+    margin: 40px; /* Aumentar o espaço entre os cursos */
+    width: 250px;
+    position: relative;
+}
+
+.course-button {
+    background-color: #00c6ff;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 20px; /* Espaço adicional abaixo do botão */
+}
+
+.course-button:hover {
+    background-color: #009ac4;
+    transform: translateY(-5px);
+}
+
+.course-description {
+    background-color: #2a2a2a;
+    border: 1px solid #00c6ff;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    top: 100%; /* Ajuste para posicionar a descrição abaixo do botão */
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 198, 255, 0.2);
+}
+
+.course-item:hover .course-description {
+    opacity: 1;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+
+.matricula-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 198, 255, 0.2);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #00c6ff;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #00c6ff;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1em;
+}
+
+button {
+    background-color: #00c6ff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 15px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #009ac4;
+}
+
+
+}
+
